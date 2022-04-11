@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: black;
+    font-family: 'Anek Tamil',
+        sans-serif;
+    background-color: #dcdcdc;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 5px #888888;
+    background-color: #c0c0c0;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 25%;
+}
+
+.left-container img {
+    max-width: 600px;
+    max-height: 600px;
+    box-shadow: 5px 10px #888888;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 25%;
+    padding: 40px;
+}
+
+.right-container h2 {
+    font-weight: bold;
+}
+
+.right-container p {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.right-container button {
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: rgb(237, 113, 204);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-self: center;
+}
